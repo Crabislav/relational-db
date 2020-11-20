@@ -1,0 +1,3 @@
+--deletes last three columns from EMPLOYEES
+ALTER TABLE EMPLOYEES
+DROP (PHOTO, NOTES, REPORTS_TO);
